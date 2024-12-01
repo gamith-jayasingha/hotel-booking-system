@@ -1,0 +1,94 @@
+/* check_availability.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5F5;
+    color: #333;
+}
+
+header {
+    background-color: #BCAB94;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h3 {
+    margin: 0;
+    font-size: 1.8rem;
+}
+
+main {
+    padding: 20px;
+}
+
+.room-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.room {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.room:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.room img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 2px solid #BCAB94;
+}
+
+.room h3 {
+    color: #BCAB94;
+    font-size: 1.5rem;
+    margin: 15px;
+    text-align: center;
+}
+
+.room p {
+    font-size: 1rem;
+    margin: 10px 15px;
+    line-height: 1.5;
+}
+
+.room form {
+    text-align: center;
+    margin: 15px;
+}
+
+.room button {
+    background-color: #BCAB94;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.room button:hover {
+    background-color: #a3917e;
+    transform: scale(1.05);
+}
+
+p {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: #555;
+}
